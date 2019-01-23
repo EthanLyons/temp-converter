@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="treth"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-23 01:14:22 PM"/>
+        <attribute name="created" value="dHJldGg7REVTS1RPUC1OTDNOOUtIOzIwMTktMDEtMjM7MDk6MDM6NTkgQU07Mjg5NA=="/>
+        <attribute name="edited" value="dHJldGg7REVTS1RPUC1OTDNOOUtIOzIwMTktMDEtMjM7MDE6MTQ6MjIgUE07MTszMDAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="repeat" type="Boolean" array="False" size=""/>
+            <do expression="repeat">
+                <declare name="F" type="Real" array="False" size=""/>
+                <declare name="C" type="Real" array="False" size=""/>
+                <input variable="F"/>
+                <assign variable="C" expression="(F-32)*5&#13;&#10;/9"/>
+                <output expression="C" newline="True"/>
+                <input variable="repeat"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
